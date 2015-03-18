@@ -24,8 +24,10 @@ body{
 <body>
     
 <div class="login_form">
-    <form action="" method="">
-        
+    <form action="login.php" method="post">
+        <input type="text" name="username" placeholder="Enter Username">
+        <input type="password" name="password" placeholder="Enter Password">
+        <button id="login-btn">Login</button>
     </form>
 </div>
 
